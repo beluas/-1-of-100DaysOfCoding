@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+body {
+	display: flex;
+	font-family: Montserrat;
+	align-self: flex-start;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+}
+
+/*Title, Description Button to generate the meal*/
+.generate-meal {
+	text-align: center;
+	padding: 2rem 0;
+}
+
+.generate-meal p {
+	font-size: 18px;
+	margin: 2rem 0;
+}
+
+.generate-meal h1 {
+	font-size: 48px;
+}
+
+.generate-meal button {
+	width: 20%;
+	margin: 0 auto;
+	cursor: pointer;
+	background-color: white;
+	border: 4px solid #33c3f0;
+	color: #33c3f0;
+	padding: 0.5rem 0.8rem;
+	font-size: 24px;
+	font-family: Montserrat;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+.recipe {
+	display: flex;
+	justify-content: center;
+}
+
+.desc {
+	display: flex;
+	flex-direction: column;
+	margin: 0 3rem;
+}
+
+.img {
+	display: flex;
+	flex-direction: column;
+	margin-left: 3rem;
+
+	justify-content: center;
+}
+
+.img img {
+	width: 380px;
+	height: 380px;
+	display: block;
+}
+
+.img p {
+	margin-bottom: 0;
+}
+
+.img ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.img ul li {
+	margin-bottom: 1.5rem;
+}
+
+@media (max-width: 760px) {
+	.recipe {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.generate-meal button {
+		font-size: 16px;
+		width: 30%;
+	}
+}
