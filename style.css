@@ -47,20 +47,18 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: 0 3rem;
+	max-width: 500px;
 }
 
 .img {
 	display: flex;
 	flex-direction: column;
 	margin-left: 3rem;
-
-	justify-content: center;
 }
 
 .img img {
 	width: 380px;
 	height: 380px;
-	display: block;
 }
 
 .img p {
