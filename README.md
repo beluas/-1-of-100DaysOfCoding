@@ -1,2 +1,2 @@
-# -1-of-100DaysOfCoding
+# 100DaysOfCoding-1
 Random Meal Generator
